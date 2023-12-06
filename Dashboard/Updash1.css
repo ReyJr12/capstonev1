@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.maindiv{
+    width: 100%;
+    height: 100%;
+}
+.leftdiv{
+    width: 30%;
+    background-color: maroon;
+    height: 100%;
+    position: fixed;
+}
+.rigthdiv{
+    width: 70%;
+    height: 100%;
+    background-color: aqua;
+}
+.nav-margin{
+    padding: 40px;
+   
+}
+.Adash{
+    display: flex;
+    text-decoration: none;
+    
+}
+.Dashimg{
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.Dashhead{
+    font-family: impact;
+    font-size: 60px;
+    color: #FCCB0A;
+}
+.campusdiv{
+    margin-right: auto;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+#campus{
+    width: 270px;
+    font-size: 20px;
+    padding: 10px;    
+    cursor: pointer;
+}
+#department{
+    font-size: 20px;
+    width: 270px;
+    padding: 10px;  
+}
+.deptdiv{
+    margin-right: auto;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+.Otherbtndiv{
+    margin-right: auto;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+a {
+    text-decoration: none;
+}
+.navhead{
+    font-size: 40px;
+   color: #FCCB0A;
+   font-style: impact;
+   font-weight: bold;
+   margin-bottom: 5px;
+   margin-top: 5px;
+}
+.Linenav{
+    width: 80%;
+    height: 3px;
+    background-color: #fefefe;
+}
+.Dashimg2{
+    transform: rotate(180deg);
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    margin-top: 12px;
+}
+
+/* DISPLAY SIDEE*/
+.rightdiv{
+    margin-left: 30%;
+}
+.display-side{
+   padding: 40px;
+    
+}
+.firstbox{
+    display: flex;
+    width:100%;
+    margin-top: 20px;
+ }
+ .newsimg1{
+    width:  300px;
+    margin-right: 10px;
+ }
+ .line{
+    height: 42px;
+    width: 10px;
+    background-color: rgb(252,203,10);
+    margin-right:auto;
+    position: absolute;
+    margin-top: -5px;
+ }
+
+.departmentheader{
+   margin-right:auto;
+   font-family: IMPACT;
+   margin-left: 20px;
+   color: maroon;
+   font-size: 50px;
+   margin-top: -12px;
+
+}
+.departmentcampus{
+    margin-left: 20px;
+    font-family: impact;
+    font-size: 30px;
+    color: maroon;
+
+ }
+.DescriptionWrapper{
+    text-align: justify;
+}
+ 
+ .newsimg1{
+    max-width: 300px;
+    max-height: 300px;
+    margin-right: 10px;
+ }
+ .secondbox{
+    width: 100%;
+ }
+ .departitle{
+    font-family: impact;
+    font-size: 30px;
+    color: maroon;
+    word-wrap: break-word;
+ }
+ .departsubtitle{
+    font-family: impact;
+    word-wrap: break-word;
+    font-size: 20px;
+    color: black;
+ }
+ .PerpetualIMG{
+    width: 100%;
+ }
+ .PERPSIMG{
+    width: 100%;
+ }
+ 

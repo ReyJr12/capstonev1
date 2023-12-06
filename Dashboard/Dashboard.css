@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+    max-width: 100%;
+  }
+
+ .selection{
+    background-color: maroon;
+    color: white;
+    padding: 30px;
+    width: 293px;
+    height: 100%;
+ }
+ .Selectheader{
+    font-size: 30px;
+    margin-left: 5%;
+    background-color: white;
+    color: black;
+
+ }
+ .Selectheader1{
+   margin-top: 40px;
+   background-color: white;
+   width: 270px;
+   padding-left: 10px;
+ 
+ }
+ .departcampuss{
+    margin-left: 20px;
+    font-family: impact;
+    font-size: 30px;
+    color: maroon;
+ }
+ #campus{
+    width: 80%;
+    margin-top: 49px;
+    text-align: center;
+    font-family: Arial;
+    background-color: white;
+    font-size: 20px;
+    height: 46px;
+    color: maroon;
+    border: solid black 1px;
+ }
+ #campus .options{
+   font-size: 20px;
+   background-color: #FCCB0A;
+   border-bottom: solid black 1px;
+   color:  maroon;
+
+ }
+ .options{
+   padding: 105px;
+   border: solid black 1px;
+ }
+ #department{
+   width: 80%;
+   margin-top: 55px;
+   text-align: center;
+   font-family: Arial;
+   background-color: white;
+   font-size: 20px;
+   height: 46px;
+   color: maroon;
+ }
+ .subbtn{
+    width: 80%;
+   height: 30px;
+    font-family: Impact;
+ }
+ .newsItem{
+    margin: 20px;
+ 
+ }
+ .departheader{
+    margin-right:auto;
+    font-family: IMPACT;
+    margin-left: 20px;
+    color: maroon;
+    font-size: 50px;
+    margin-top: -12px;
+
+ }
+ .line{
+    height: 42px;
+    width: 10px;
+    background-color: rgb(252,203,10);
+    margin-right:auto;
+    position: absolute;
+    margin-top: 8px;
+ }
+ .firstbox{
+    display: flex;
+    width: 55%;
+ }
+ .newsimg1{
+    max-width: 30%;
+    margin-right: 10px;
+ }
+ .secondbox{
+    width: 43.5%;
+ }
+ .departitle{
+    font-family: impact;
+    font-size: 30px;
+    color: maroon;
+    word-wrap: break-word;
+ }
+ .departsubtitle{
+    font-family: impact;
+    word-wrap: break-word;
+    font-size: 20px;
+    color: black;
+ }
+ 
+ body{
+    width: 100%;
+    overflow-x: hidden;
+    background-image: linear-gradient(to bottom right, #ffcc00, #ff6699); 
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .DescriptionWrapper {
+    margin-right: 20px; /* To center the content if desired */
+    text-align: justify;
+    word-wrap: break-word;
+    text-align: justify;
+    margin-top: 10px;
+}
+/*NAVIGATION*/
+.DASHIMG{
+   height: 43px;
+   margin-top: 25px;
+}
+
+.DASHIMG1{
+   height: 43px;
+   margin-top: 25px;
+   transform: rotate(180deg);
+}
+.dashboardhead{
+   font-size: 49px;
+   margin-left: 10px;
+   margin-top: 19px;
+   color: #FCCB0A;
+   font-family: impact;
+}
+.ADASH{
+   text-decoration: none;
+}
+.linnav{
+   width: 80%;
+   height: 1px;
+   background-color: #fefefe;
+}
+.marginboxnav{
+   margin-top: 100px;
+   margin-bottom: auto;
+}
+.navhead{
+   font-size: 40px;
+   color: #FCCB0A;
+   font-style: impact;
+   font-weight: bold;
+   margin-bottom: 5px;
+   margin-top: 5px;
+
+}
+.aa{
+   text-decoration: none;
+}  
+.side-nav {
+   position: fixed;
+   top: 0;
+   /* Adjust as needed */
+   width: 325px;
+   /* Set the width */
+   height: 100vh;
+   /* Make it occupy the full viewport height */
+   overflow-y: none;
+   /* Add scrolling if content exceeds viewport height */
+   /* Other styling properties as needed */
+}    
+.marginleftt{
+   margin-left: 380px;
+}
+.content-container{
+   width: 75%;
+ 
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.divbody{
+    margin-left:160px;
+
+}
+.Boxdesign1{
+    height: 42px;
+    width: 10px;
+    background-color: rgb(252,203,10);
+    position: absolute;
+    margin-top: 10px;
+}
+.PerpetualHeader{
+    display: flex ;
+    font-family: IMPACT;
+    margin-left: 20px;
+    color: maroon;
+    font-size: 50px;
+    margin-top: 40px;
+}
+.PerpetualIMG{
+    width:  100%;
+}
+.PERPSIMG{
+    width: 100%;
+    margin-top: 30px;
+}
+.alabangheader{
+    color: maroon;
+    font-size: 20px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
