@@ -39,7 +39,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.min.js"></script>
     <title>Home Page</title>
-    <link rel="stylesheet" type="text/css" href="../HomePage/Homepage.css">
+    <link rel="stylesheet" type="text/css" href="Homepage.css">
 </head>
 <body>
     <div class="topheader">
