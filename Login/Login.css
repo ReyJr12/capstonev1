@@ -1,0 +1,122 @@
+body {
+    font-family: Arial;
+
+}
+.bgimg{
+    background-image: linear-gradient(to bottom, rgba(107, 25, 25, 0.307), rgba(122, 23, 23, 0.244)), url('../PICS/LOGIN/Field2.jpg');
+    background-size: cover;
+
+}
+.Main-container{
+    height: 600px;
+    width: 750px;
+    border-style: solid;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 5%;
+    border: 1px solid #BFBFBF;
+    box-shadow: 0px 12px 10px 13px rgba(11, 11, 11, 0.568);
+    display: flex;
+}
+.first-container{
+    height: 600px;
+    width: 370px;
+    border: #333;
+    background-color: rgb(255, 255, 255);
+}
+.WebsiteLogo{
+    height: 130px;
+    padding-top: 50px ;
+   align-items: center;
+}
+.Logintocores{
+    color: maroon;
+    margin-left: -60px;
+    text-align: center;
+}
+.hr1{
+    color: maroon;
+    background-color: maroon;
+    height: 1px;
+    width: 250px;
+    border: none;
+    margin-left: -10px;
+}
+.formlogin{
+    padding-left: 75px;
+    color: maroon;
+}
+.usernamepadding{
+    margin-bottom: 10px;
+    width: 220px;
+}
+.passwordapadding{
+    width: 220px;
+}
+.Loginbutton{
+   position: absolute;
+    width: 220px;
+    margin-top: 20px;
+    height: 30px;
+    background-color: rgb(252,203,10);
+    border: none;
+    border-radius: 10px;
+    color: maroon;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.Loginbutton:hover{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+.details{
+    margin-top: 120px;
+    color: maroon;
+    font-size: 10px;
+    padding-left: 30px;
+
+}
+.No{
+    color: blue;
+    
+}
+.No1{
+    color: blue;
+    text-decoration: underline;
+    
+}
+.second-container{
+    height: 601px;
+    width: 379px;
+    border: maroon;
+}
+.loginright{
+    height: 100%;
+    width: 382px;
+}
+
+h2 {
+    color: #333;
+}
+.BackButton{
+    position: absolute;
+    text-decoration: none;
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    padding-top: 10px ;
+
+    color: maroon;
+    border-radius: 10px;
+    margin-left: -50px;
+    font-family: impact;
+}
+.BackButton:hover{
+    color: red;
+    
+}
+.BackButton1{
+    position: absolute;
+}
