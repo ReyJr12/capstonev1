@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+.divbody{
+    margin:40px;
+    margin-right: 100px;
+
+}
+.Boxdesign1{
+    height: 42px;
+    width: 10px;
+    background-color: rgb(252,203,10);
+    position: absolute;
+    margin-top: 10px;
+}
+.CCSHeader{
+    display: flex ;
+    font-family: IMPACT;
+    margin-left: 20px;
+    color: maroon;
+    font-size: 50px;
+    margin-top: 40px;
+}
+.PerpetualIMG{
+    width: 100%;
+    height: 803px;
+}
+
+
+.CCSHeader{
+    color: maroon;
+    font-size: 50px;
+    font-family: IMPACT;
+}
+.Boxdesign2{
+    height: 42px;
+    width: 10px;
+    background-color: rgb(252,203,10);
+   
+    margin-top: 50px;
+    position: absolute;
+}
+.CCSHeader2{
+    display: flex ;
+    font-family: IMPACT;
+    color: maroon;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.doublebox{
+    width: 100%;
+    display: flex;
+
+}
+.firstbox{
+    width: 60%;
+    
+
+}
+.secondbox{
+    width: 30%;
+    font-size: 26px;
+    font-family: impact;
+    margin-left: 60px;
+    text-align: justify;
+
+}
+.Reyimg{
+    height: 700px;
+    margin-left: 40px;
+    width: 100%;
+    margin-bottom: 50px;
+}
