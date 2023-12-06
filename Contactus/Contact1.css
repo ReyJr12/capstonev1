@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial';
+  max-width: 100%;
+}
+.midtopheader{
+    background: linear-gradient(to bottom, rgba(107, 25, 25, 0.705), rgba(122, 23, 23, 0.767)), url('../PICS/HOMEPAGE/Field.jpg');
+    width: 100%;
+    height: 380px;
+    background-size: cover ;
+    background-position: absolute;
+}
+.top-nav {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.438);
+    width: 100%;
+    align-items: center; /* Center items vertically */
+    padding: 30px 30px; /* Added padding for better spacing */
+    box-sizing: border-box; /* Include padding in width/height calculation */
+}
+.topPerplogo {
+    margin-right: auto; /* Pushes the logo to the left */
+    height: 80px; /* Adjusted logo height */
+}
+
+.top-navbuttons {
+    list-style: none;
+    display: flex;
+    float: right;
+    text-align: right;
+    margin-left: auto;
+}
+
+.top-navbuttons li {
+    padding: 0 20px; /* Adjusted padding */
+}
+.top-navbuttons li:hover {
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.324);
+}
+
+.top-navbuttons li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 2.5vw; /* Using viewport units for font size */
+    font-weight: 1000;
+    transition: color 0.3s, background-color 0.3s; /* Smooth hover effect */
+}
+
+.top-navbuttons li a:hover{
+    color: #FCCB0A;
+   
+    border-radius: 10px;
+
+}   
+.coresdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Adjust the height as needed */
+}
+
+.Cores-img {
+    max-width: 95%; /* Ensure the image doesn't exceed its container */
+    max-height: 75%; /* Ensure the image doesn't exceed its container */
+}
+
+
+/*dropdown */
+.dropdown{
+    margin-right:auto;
+    margin-bottom: auto;
+    margin: 7px 0px 0px 30px ;
+}
+
+.dashboardbutton{
+    width: 168px;
+    font-size: 25px;
+    padding: 5px;
+    background-color: rgba(255, 255, 1, 0.533);
+    color: maroon;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    text-decoration:  none;
+    margin-left: 20px;
+}
+
+
+.dropdownarrow{
+    height: 10px;
+    padding-top: 10%;
+    position: relative;
+
+}
+.dropdown-content {
+    display: none;
+    width: 168px;
+    z-index: 1;
+    position: absolute;
+    display: none;
+}
+.dropdown-content a {
+    color:yellow;
+    background-color: maroon;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+    border: solid 1px;
+    font-size: 20px;
+}
+.dropdown-content a:hover{
+  background-color: white;
+  color: maroon;
+}
+
+.show{
+  display: block;
+}
+/* Bodyyy*/
+
+/* FOR CONTACT US HEADER WITH LINES*/
+.container1{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 30%;
+  margin-right: auto;
+}
+
+.Lines{
+ margin-top: 30px;
+  height: 5px;
+  width: 200px;
+  background-color: #FCCB0A;
+
+}
+.ContactHEAD{
+  margin-left: 10px;
+  margin-Right: 10px;
+  font-size: 50px;
+  color: maroon;
+  font-weight: bold;
+  font-family: impact;
+
+}
+
+.container2 {
+    background-image: url("../PICS/CONTACTUS/CESCONTACTUSBG1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    margin-top: 10px;
+    padding: 30px;
+}
+
+.Backlines{
+    background-color: #FCCB0A;
+    height: 50px;
+    width: 5px;
+    margin-top: 11px;
+
+}
+.feedbox{
+    background-color: maroon;
+    height: 90%;
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    border: solid yellow 1px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.566);
+}
+.feedbox1{
+    background-color: maroon;
+    height: 90%;
+    width: 70%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid yellow 1px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.566);
+    margin-bottom: 30px;
+}
+
+.feedboxhead{
+    font-family: Arial;
+    color: #FCCB0A;
+    text-align: center;
+    margin: 50px;
+    font-size: 20px;
+
+}
+
+.sendfeedboxhead{
+    font-family: impact;
+    color: maroon;
+    font-size: 50px;
+    padding: 5px;
+   
+}
+.yellowbg{
+    background-color: #FCCB0A;
+    border: solid maroon 3px;
+}
+.flexing1and2{
+    display: flex;
+    margin: 50px;
+    font-size: 20px;
+    color: white;
+}
+.flexing1{
+    width: 50%;
+    margin-right: 5px;
+}
+.flexing2{
+    width: 50%;
+    margin-right: 5px;
+    margin-left: 20px;
+}
+.input{
+    width: 100%;
+    height: 40px;
+    border: solid black 3px;
+}
+.input1{
+    width: 92%;
+    height: 40px;
+    border: solid black 3px;
+    margin-right: 10%;
+}
+.lbels{
+    font-family:  Calibri;
+    font-size: 30px;
+    color: white;
+}
+.flexingemail{
+    margin-top: -40px;
+    margin-right: auto;
+    margin-left: 50px;
+}
+.flexingemail1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: 50px;
+}
+.textarea{
+    margin-right: 50px;
+    width: 92%;
+    height: 30%;
+   
+}
+.subbtn{
+    margin-left: 35%;
+    width: 200px;
+    background-color: #FCCB0A;
+    color: maroon;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.paragraph{
+    color: #FCCB0A;
+    font-size: 25px;
+    margin-top: 30px;
+    text-align: center;
+}
+.textarea2{
+    margin: 50px;
+    width: 90%;
+    height: 400px;
+}
+.subbtn1{
+    background-color: #FCCB0A;
+    color: maroon;
+    margin-right: auto;
+    margin-left: 50px;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: calibri;
+    margin-top: -30px;
+}
+
+.footerdown{
+    margin-top: 20px;
+    height: 500px;
+    width: 100%;
+    background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.705), rgba(122, 23, 23, 0.767)), url('../PICS/HOMEPAGE/Field.jpg');
+    
+  }
+  .IMGLOGOFOOTER{
+  height: 150px;
+   margin-left: 80px;
+   margin-top: 60px;
+  }
+  .Footpara{
+    color:white;
+    margin-left: 185px;
+    letter-spacing: 2px;
+    font-family:impact;
+  }
+  .foot1{
+    padding-top: 4px;
+  }
+  .foot2{
+    font-size: 30px;
+  }
+  .yrs45{
+    height: 150px;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 100px;
+  }
+  .ISO{
+    height: 150px;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 300px;
+  }
+  .linefoot{
+    background-color: #FCCB0A;
+    width: 340px;
+    height: 3px;
+    position: absolute;
+    margin-left: 1062px;
+    margin-top: 65px;
+  }
