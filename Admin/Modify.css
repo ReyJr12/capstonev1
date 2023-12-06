@@ -1,0 +1,207 @@
+  /* Modify.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+
+    max-width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: maroon;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: maroon;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #FCCB0A;
+}
+
+tr:hover {
+    background-color: #DAA520;
+}
+
+/* Edit form style */
+form[action$="edit.php"] {
+    background-color: #fff;
+    border: 1px solid maroon;
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form[action$="edit.php"] label {
+    display: block;
+    margin-bottom: 8px;
+    color: maroon;
+}
+
+form[action$="edit.php"] input[type="text"],
+form[action$="edit.php"] textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form[action$="edit.php"] input[type="submit"] {
+    background-color: maroon;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form[action$="edit.php"] input[type="submit"]:hover {
+    background-color: #800000;
+}
+.dltebtn{
+    width: 100%;
+}
+.update-btn{
+    width: 100%;
+}
+.editbtn{
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Additional style for the form */
+
+.containter1{
+    display:flex;
+    width:100%;
+    align-items: center;
+    height: 700px;
+    border: solid black;
+    background: linear-gradient(rgba(0, 0, 0, 0.372), rgba(0, 0, 0, 0.8)), url("../PICS/HOMEPAGE/HighlightBG.png") no-repeat bottom/cover;
+}
+
+.form-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+.fisrtbox {
+    
+    margin-right: auto;
+    margin-left: 10%;
+}
+.imgP{
+    font-size: 30px;
+}
+.container122{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 30%;
+    margin-right: auto;
+  }
+  
+  .Lines1{
+   margin-top: 30px;
+    height: 5px;
+    width: 200px;
+    background-color: #FCCB0A;
+  
+  }
+ 
+  .ContactHEAD1{
+    margin-left: 10px;
+    margin-Right: 10px;
+    font-size: 50px;
+    color: maroon;
+    font-weight: bold;
+    font-family: impact;
+  
+  }
+.desP{
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.des1{
+    height: 200px;
+    width: 100%;
+    
+}
+.titlesub{
+    display: flex;
+    font-family: impact;
+    text-align: center;
+    margin: 10px;
+}
+.titls{
+    width: 100%;
+    font-size: 30px;
+    margin: 5px 10px 5px 5px;
+}
+#status{
+    width: 300px;
+    align-items: center;
+    text-align: center;
+    height: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+}
+.statp{
+    margin-top: 60px;
+    font-size: 40px;
+
+    margin-left: 100px ;
+}
+
+.form-container{
+    color: #ffffff;
+   
+}
+.main{
+
+    margin-left: auto;
+    color: #ffffff;
+    background-color: #800000;
+    padding: 20px;
+    margin-right: 10%;
+    width: 50%;
+  
+}
+.upheader{
+    text-align: center;
+    font-size: 30px;
+    font-family: impact;
+}
+.btnsub{
+    font-size: 30px;
+    font-family: impact;
+}
